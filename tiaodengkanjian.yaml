@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港家宽 01丨1x HK, server: zhuanlan.zhihu.win, port: 12729, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
-  - {name: 澳门家宽 01丨3x MO, server: zhuanlan.zhihu.win, port: 50227, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 香港家宽 01丨1x HK, server: tiaodengkanjian.buildhost.com, port: 12729, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 澳门家宽 01丨3x MO, server: tiaodengkanjian.buildhost.com, port: 50227, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
 proxy-groups:
-  - name: Proxies
+  - name: 挑灯看剑-香港｜澳门测试
     type: select
     proxies:
       - 香港家宽 01丨1x HK
