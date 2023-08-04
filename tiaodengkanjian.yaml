@@ -13,7 +13,6 @@ proxy-groups:
     proxies:
       - 香港家宽 01丨1x HK
       - 澳门家宽 01丨3x MO
-      - 澳门家宽 02丨3x MO
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
