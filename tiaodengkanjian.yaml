@@ -5,8 +5,222 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港 01丨1x HK, server: zhuanlan.zhihu.win, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 02丨1x HK, server: zhuanlan.zhihu.win, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 03丨1x HK, server: zhuanlan.zhihu.win, port: 12024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港家宽 01丨1x HK, server: zhuanlan.zhihu.win, port: 12729, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
-  - name: 🔖 IT-MAN
+  - {name: 🇭🇰 香港家宽 02丨1x HK, server: zhuanlan.zhihu.win, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港家宽 03丨1x HK, server: zhuanlan.zhihu.win, port: 13115, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港游戏丨2x HK, server: zhuanlan.zhihu.win, port: 12312, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇴 澳门家宽 01丨3x MO, server: zhuanlan.zhihu.win, port: 50227, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇴 澳门家宽 02丨3x MO, server: zhuanlan.zhihu.win, port: 13151, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 01丨1x TW, server: zhuanlan.zhihu.win, port: 13127, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 02丨1x TW, server: zhuanlan.zhihu.win, port: 13128, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾 03丨1x TW, server: zhuanlan.zhihu.win, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾家宽 01丨1x TW, server: zhuanlan.zhihu.win, port: 12304, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾家宽 02丨1x TW, server: zhuanlan.zhihu.win, port: 12305, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇳 台湾家宽 03丨1x TW, server: zhuanlan.zhihu.win, port: 12306, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 01丨1x SG, server: zhuanlan.zhihu.win, port: 12000, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 02丨1x SG, server: zhuanlan.zhihu.win, port: 12002, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 03丨1x SG, server: zhuanlan.zhihu.win, port: 12003, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡 04丨1x SG, server: zhuanlan.zhihu.win, port: 12004, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡家宽 01丨3x SG, server: zhuanlan.zhihu.win, port: 12726, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡家宽 02丨3x SG, server: zhuanlan.zhihu.win, port: 13116, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡家宽 03丨3x SG, server: zhuanlan.zhihu.win, port: 13132, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇾 马来西亚家宽 01丨1x MY, server: zhuanlan.zhihu.win, port: 12727, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇾 马来西亚家宽 02丨1x MY, server: zhuanlan.zhihu.win, port: 13182, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇾 马来西亚家宽 03丨1x MY, server: zhuanlan.zhihu.win, port: 13183, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇾 马来西亚家宽 04丨1x MY, server: zhuanlan.zhihu.win, port: 12321, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 马尔代夫丨3x MV, server: demo.uwp.gitv.site, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇭 柬埔寨丨3x KH, server: zhuanlan.zhihu.win, port: 12701, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇹🇭 泰国丨2x TH, server: zhuanlan.zhihu.win, port: 12313, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 缅甸丨10x MM, server: zhuanlan.zhihu.win, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 老挝丨5x LA, server: zhuanlan.zhihu.win, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇻🇳 越南丨1x VN, server: zhuanlan.zhihu.win, port: 12316, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇻🇳 越南家宽丨3x VN, server: zhuanlan.zhihu.win, port: 12700, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 01丨1x JP, server: snrent.pptv.site, port: 12011, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 02丨1x JP, server: snrent.pptv.site, port: 12010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 03丨1x JP, server: snrent.pptv.site, port: 12012, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 04丨1x JP, server: snrent.pptv.site, port: 12013, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 05丨1x JP, server: snrent.pptv.site, port: 12014, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 06丨3x JP, server: snrent.pptv.site, port: 13023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 07丨3x JP, server: snrent.pptv.site, port: 13020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 08丨3x JP, server: snrent.pptv.site, port: 13230, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本游戏丨2x JP, server: snrent.pptv.site, port: 13024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本家宽 01丨3x JP, server: snrent.pptv.site, port: 13101, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本家宽 02丨3x JP, server: snrent.pptv.site, port: 13221, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇷 韩国 01丨1x KR, server: snrent.pptv.site, port: 12317, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇷 韩国 02丨1x KR, server: snrent.pptv.site, port: 12800, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇷 韩国家宽 01丨3x KR, server: snrent.pptv.site, port: 50015, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇷 韩国家宽 02丨3x KR, server: snrent.pptv.site, port: 50016, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 不丹丨3x BT, server: zhuanlan.zhihu.win, port: 20027, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 文莱丨3x BN, server: zhuanlan.zhihu.win, port: 20028, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇵 朝鲜丨3x KP, server: snrent.pptv.site, port: 13222, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 关岛丨3x GU, server: snrent.pptv.site, port: 13229, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 斐济丨3x FJ, server: snrent.pptv.site, port: 13224, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇭 菲律宾-克拉克丨1x PH, server: zhuanlan.zhihu.win, port: 12406, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇭 菲律宾-马尼拉丨1x PH, server: zhuanlan.zhihu.win, port: 12020, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇭 菲律宾-帕西格丨1x PH, server: zhuanlan.zhihu.win, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇩 印尼-棉兰丨1x ID, server: zhuanlan.zhihu.win, port: 12300, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇩 印尼-雅加达丨1x ID, server: zhuanlan.zhihu.win, port: 12301, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇳 印度 01丨1x IN, server: zhuanlan.zhihu.win, port: 12302, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇳 印度 02丨1x IN, server: zhuanlan.zhihu.win, port: 13106, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇳 蒙古丨1x MN, server: zhuanlan.zhihu.win, port: 12328, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇴 约旦丨2x JO, server: demo.uwp.gitv.site, port: 12708, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇷 伊朗丨5x IR, server: demo.uwp.gitv.site, port: 12707, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 巴林丨10x BH, server: demo.uwp.gitv.site, port: 13108, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 阿曼丨3x OM, server: zhuanlan.zhihu.win, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-海法丨1x IL, server: demo.uwp.gitv.site, port: 12600, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-罗什艾因丨1x IL, server: demo.uwp.gitv.site, port: 12732, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-特拉维夫丨1x IL, server: demo.uwp.gitv.site, port: 12733, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇱 以色列-佩塔提克瓦丨1x IL, server: demo.uwp.gitv.site, port: 12735, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇹🇷 土耳其 01丨1x TR, server: demo.uwp.gitv.site, port: 12603, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇹🇷 土耳其 02丨1x TR, server: demo.uwp.gitv.site, port: 12655, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 尼泊尔丨1x NP, server: zhuanlan.zhihu.win, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 孟加拉丨2x BD, server: zhuanlan.zhihu.win, port: 12724, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 黎巴嫩丨5x LB, server: demo.uwp.gitv.site, port: 13123, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 伊拉克丨5x IQ, server: demo.uwp.gitv.site, port: 13124, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 叙利亚丨5x SY, server: demo.uwp.gitv.site, port: 13126, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 卡塔尔丨10x QA, server: zhuanlan.zhihu.win, port: 13181, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇪 阿联酋 01丨2x AE, server: zhuanlan.zhihu.win, port: 12400, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇪 阿联酋 02丨2x AE, server: zhuanlan.zhihu.win, port: 13110, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇪 阿联酋 03丨2x AE, server: zhuanlan.zhihu.win, port: 13100, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇿 阿塞拜疆丨2x AZ, server: demo.uwp.gitv.site, port: 12606, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 亚美尼亚丨2x AM, server: demo.uwp.gitv.site, port: 12737, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇪 格鲁吉亚丨1x GE, server: demo.uwp.gitv.site, port: 12644, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇰 巴基斯坦丨5x PK, server: zhuanlan.zhihu.win, port: 12605, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 斯里兰卡丨3x LK, server: zhuanlan.zhihu.win, port: 20029, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇦 沙特阿拉伯丨3x SA, server: zhuanlan.zhihu.win, port: 13032, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇿 哈萨克斯坦丨1x KZ, server: demo.uwp.gitv.site, port: 12602, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇬 吉尔吉斯斯坦丨1x KG, server: demo.uwp.gitv.site, port: 13120, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 乌兹别克斯坦丨1x UZ, server: zhuanlan.zhihu.win, port: 20025, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇺 澳大利亚-悉尼丨2x AU, server: zhuanlan.zhihu.win, port: 12324, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇺 澳大利亚-珀斯丨2x AU, server: zhuanlan.zhihu.win, port: 12402, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇺 澳大利亚-墨尔本丨2x AU, server: zhuanlan.zhihu.win, port: 12401, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇺 澳大利亚-布里斯班丨2x AU, server: zhuanlan.zhihu.win, port: 12325, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇳🇿 新西兰丨2x NZ, server: zhuanlan.zhihu.win, port: 12326, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇳🇿 新西兰家宽丨3x NZ, server: zhuanlan.zhihu.win, port: 20023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国 01丨1x FR, server: demo.uwp.gitv.site, port: 12621, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国 02丨1x FR, server: demo.uwp.gitv.site, port: 12740, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇫🇷 法国-谷歌无线网络丨3x FR, server: demo.uwp.gitv.site, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 01丨1x GB, server: demo.uwp.gitv.site, port: 12710, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 02丨1x GB, server: demo.uwp.gitv.site, port: 12267, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 03丨1x GB, server: demo.uwp.gitv.site, port: 12736, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 04丨2x GB, server: demo.uwp.gitv.site, port: 12470, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国 05丨1x GB, server: demo.uwp.gitv.site, port: 12266, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇧 英国家宽丨3x GB, server: demo.uwp.gitv.site, port: 12640, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇲 马恩岛丨2x IM, server: demo.uwp.gitv.site, port: 12623, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国 01丨1x DE, server: demo.uwp.gitv.site, port: 12619, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国 02丨1x DE, server: demo.uwp.gitv.site, port: 12620, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇩🇪 德国-谷歌无线网络丨3x DE, server: demo.uwp.gitv.site, port: 13134, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇩🇰 丹麦丨1x DK, server: demo.uwp.gitv.site, port: 12608, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇳🇴 挪威丨1x NO, server: demo.uwp.gitv.site, port: 12610, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇪 瑞典丨1x SE, server: demo.uwp.gitv.site, port: 12611, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇫🇮 芬兰丨2x FI, server: demo.uwp.gitv.site, port: 12609, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇸 冰岛丨2x IS, server: demo.uwp.gitv.site, port: 12607, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇸 冰岛-谷歌无线网络丨3x IS, server: demo.uwp.gitv.site, port: 13132, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇭 瑞士丨2x CH, server: demo.uwp.gitv.site, port: 12630, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇿 捷克丨1x CZ, server: demo.uwp.gitv.site, port: 12613, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇬🇷 希腊丨2x GR, server: demo.uwp.gitv.site, port: 12615, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇳🇱 荷兰丨1x NL, server: demo.uwp.gitv.site, port: 12622, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇱 波兰丨1x PL, server: demo.uwp.gitv.site, port: 12261, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 黑山丨3x ME, server: demo.uwp.gitv.site, port: 13129, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇷🇺 俄罗斯-莫斯科丨1x RU, server: demo.uwp.gitv.site, port: 12034, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇷🇺 俄罗斯-叶卡捷琳堡丨1x RU, server: demo.uwp.gitv.site, port: 13122, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 乌克兰丨1x UA, server: demo.uwp.gitv.site, port: 12614, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇭🇺 匈牙利丨1x HU, server: demo.uwp.gitv.site, port: 12631, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇱🇺 卢森堡丨2x LU, server: demo.uwp.gitv.site, port: 12629, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇹 奥地利丨2x AT, server: demo.uwp.gitv.site, port: 12628, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇹 意大利丨1x IT, server: demo.uwp.gitv.site, port: 12616, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 梵蒂冈丨3x VA, server: demo.uwp.gitv.site, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇪 比利时丨1x BE, server: demo.uwp.gitv.site, port: 12618, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇮🇪 爱尔兰丨2x IE, server: demo.uwp.gitv.site, port: 12617, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇱🇹 立陶宛丨1x LT, server: demo.uwp.gitv.site, port: 12652, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇪🇸 西班牙丨1x ES, server: demo.uwp.gitv.site, port: 12625, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇹 葡萄牙丨1x PT, server: demo.uwp.gitv.site, port: 12624, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 安道尔丨3x AD, server: demo.uwp.gitv.site, port: 12738, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 马耳他丨3x MT, server: demo.uwp.gitv.site, port: 12743, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 摩纳哥丨3x MC, server: demo.uwp.gitv.site, port: 13138, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇬 保加利亚丨1x BG, server: demo.uwp.gitv.site, port: 12634, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇭🇷 克罗地亚丨2x HR, server: demo.uwp.gitv.site, port: 12646, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇰 北马其顿丨2x MK, server: demo.uwp.gitv.site, port: 12645, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇷🇸 塞尔维亚丨2x RS, server: demo.uwp.gitv.site, port: 12647, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇾 塞浦路斯丨1x CY, server: demo.uwp.gitv.site, port: 12654, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇱🇻 拉脱维亚丨1x LV, server: demo.uwp.gitv.site, port: 12649, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇩 摩尔多瓦丨2x MD, server: demo.uwp.gitv.site, port: 12651, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇰 斯洛伐克丨1x SK, server: demo.uwp.gitv.site, port: 12650, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇪🇪 爱沙尼亚丨1x EE, server: demo.uwp.gitv.site, port: 12635, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇷🇺 白俄罗斯丨3x BY, server: demo.uwp.gitv.site, port: 12633, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇷🇴 罗马尼亚丨1x RO, server: demo.uwp.gitv.site, port: 12641, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 直布罗陀丨3x GI, server: demo.uwp.gitv.site, port: 13127, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 圣马力诺丨3x SM, server: demo.uwp.gitv.site, port: 13130, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇸🇮 斯洛文尼亚丨2x SI, server: demo.uwp.gitv.site, port: 12653, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇱 阿尔巴尼亚丨1x AL, server: demo.uwp.gitv.site, port: 12642, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇦 波黑共和国丨2x BA, server: demo.uwp.gitv.site, port: 12643, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 列支敦士登丨3x LI, server: demo.uwp.gitv.site, port: 13128, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 法属留尼汪丨2x RE, server: zhuanlan.zhihu.win, port: 20026, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-费城丨1x US, server: snrent.pptv.site, port: 13005, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-纽约丨1x US, server: snrent.pptv.site, port: 13006, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-丹佛丨1x US, server: snrent.pptv.site, port: 13110, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶丨1x US, server: snrent.pptv.site, port: 13007, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-圣何塞丨1x US, server: snrent.pptv.site, port: 13008, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-斯波坎丨1x US, server: snrent.pptv.site, port: 13010, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-奥格登丨1x US, server: snrent.pptv.site, port: 13107, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-凤凰城丨1x US, server: snrent.pptv.site, port: 13109, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-西雅图丨1x US, server: snrent.pptv.site, port: 13111, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-芝加哥丨1x US, server: snrent.pptv.site, port: 13112, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-达拉斯丨1x US, server: snrent.pptv.site, port: 13011, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-底特律丨1x US, server: snrent.pptv.site, port: 12705, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-夏威夷丨3x US, server: snrent.pptv.site, port: 13108, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-迈阿密丨1x US, server: snrent.pptv.site, port: 13113, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-堪萨斯丨1x US, server: snrent.pptv.site, port: 13118, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-密尔沃基丨1x US, server: snrent.pptv.site, port: 13012, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-圣克拉拉丨1x US, server: snrent.pptv.site, port: 12706, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯丨1x US, server: snrent.pptv.site, port: 13212, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶家宽丨3x US, server: snrent.pptv.site, port: 13114, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-西雅图家宽丨5x US, server: snrent.pptv.site, port: 13227, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-芝加哥家宽丨5x US, server: snrent.pptv.site, port: 13228, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-亚特兰大家宽丨5x US, server: snrent.pptv.site, port: 13213, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国-谷歌无线网络丨3x US, server: snrent.pptv.site, port: 13226, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇦 加拿大-温哥华丨2x CA, server: snrent.pptv.site, port: 13001, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇦 加拿大-多伦多丨1x CA, server: snrent.pptv.site, port: 13000, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇦 加拿大-蒙特利尔丨1x CA, server: snrent.pptv.site, port: 13200, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇦 加拿大家宽丨3x CA, server: snrent.pptv.site, port: 13117, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇲🇽 墨西哥丨3x MX, server: snrent.pptv.site, port: 13004, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇦 巴拿马丨3x PA, server: snrent.pptv.site, port: 12704, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 格陵兰丨3x GL, server: demo.uwp.gitv.site, port: 13133, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇷 哥斯达黎加丨1x CR, server: snrent.pptv.site, port: 12719, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇷 巴西 01丨1x BR, server: snrent.pptv.site, port: 13103, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇷 巴西 02丨1x BR, server: snrent.pptv.site, port: 13116, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇷 巴西 03丨1x BR, server: snrent.pptv.site, port: 13217, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇧🇷 巴西 04丨1x BR, server: snrent.pptv.site, port: 13013, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇱 智利丨2x CL, server: snrent.pptv.site, port: 13104, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇵🇪 秘鲁丨5x PE, server: snrent.pptv.site, port: 13016, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 古巴丨3x CU, server: snrent.pptv.site, port: 13223, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇷 阿根廷 01丨2x AR, server: snrent.pptv.site, port: 13015, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇦🇷 阿根廷 02丨5x AR, server: snrent.pptv.site, port: 13211, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇺🇾 乌拉圭丨2x UY, server: snrent.pptv.site, port: 12715, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 牙买加丨3x JM, server: snrent.pptv.site, port: 13231, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 荷属库拉索丨2x CW, server: snrent.pptv.site, port: 13115, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇨🇴 哥伦比亚丨1x CO, server: snrent.pptv.site, port: 13050, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 厄瓜多尔丨5x EC, server: snrent.pptv.site, port: 13106, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 委内瑞拉丨3x VE, server: snrent.pptv.site, port: 12720, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 危地马拉丨1x GT, server: snrent.pptv.site, port: 13218, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 波多黎各丨2x PR, server: snrent.pptv.site, port: 13219, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 开曼群岛丨3x KY, server: snrent.pptv.site, port: 13225, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇪🇬 埃及丨3x EG, server: demo.uwp.gitv.site, port: 12718, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 加纳丨3x GH, server: demo.uwp.gitv.site, port: 13136, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇿🇦 南非-开普敦丨1x ZA, server: demo.uwp.gitv.site, port: 13104, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇿🇦 南非-约翰内斯堡丨1x ZA, server: demo.uwp.gitv.site, port: 12036, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 摩洛哥丨2x MA, server: demo.uwp.gitv.site, port: 12731, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇹🇳 突尼斯丨2x TN, server: demo.uwp.gitv.site, port: 12703, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇰🇪 肯尼亚丨1x KE, server: demo.uwp.gitv.site, port: 12716, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 卢旺达丨2x RW, server: zhuanlan.zhihu.win, port: 13133, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 佛得角丨3x CV, server: demo.uwp.gitv.site, port: 13139, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 🇯🇵 尼日利亚丨2x NG, server: demo.uwp.gitv.site, port: 12648, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+  - {name: 毛里求斯丨2x MU, server: demo.uwp.gitv.site, port: 13118, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 72cb5de5f787.microsoft.com}, udp: true}
+proxy-groups:
+  - name: 🔖 TAG 规则版本6.16v4
     type: select
     proxies:
       - 🌏 亚洲
@@ -277,6 +491,11 @@ proxies:
   - name: 🎞️ Emby
     type: select
     proxies:
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇸🇬 新加坡 01丨1x SG
+      - 🇸🇬 新加坡 02丨1x SG
+      - 🇷🇺 俄罗斯-莫斯科丨1x RU
       - 🌏 亚洲
       - 🌏 大洋洲
       - 🌏 欧洲
@@ -494,333 +713,420 @@ proxies:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
       - 🇭🇰 香港家宽 01丨1x HK
       - 🇭🇰 香港家宽 02丨1x HK
       - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港游戏丨2x HK
   - name: 🇲🇴 澳门节点
     type: select
     proxies:
-      - DIRECT
+      - 🇲🇴 澳门家宽 01丨3x MO
+      - 🇲🇴 澳门家宽 02丨3x MO
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 台湾 01丨1x TW
+      - 🇨🇳 台湾 02丨1x TW
+      - 🇨🇳 台湾 03丨1x TW
+      - 🇨🇳 台湾家宽 01丨1x TW
+      - 🇨🇳 台湾家宽 02丨1x TW
+      - 🇨🇳 台湾家宽 03丨1x TW
   - name: 🇸🇬 新加坡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 新加坡 01丨1x SG
+      - 🇸🇬 新加坡 02丨1x SG
+      - 🇸🇬 新加坡 03丨1x SG
+      - 🇸🇬 新加坡 04丨1x SG
+      - 🇸🇬 新加坡家宽 01丨3x SG
+      - 🇸🇬 新加坡家宽 02丨3x SG
+      - 🇸🇬 新加坡家宽 03丨3x SG
   - name: 🇺🇸 美国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 美国-费城丨1x US
+      - 🇺🇸 美国-纽约丨1x US
+      - 🇺🇸 美国-丹佛丨1x US
+      - 🇺🇸 美国-洛杉矶丨1x US
+      - 🇺🇸 美国-圣何塞丨1x US
+      - 🇺🇸 美国-斯波坎丨1x US
+      - 🇺🇸 美国-奥格登丨1x US
+      - 🇺🇸 美国-凤凰城丨1x US
+      - 🇺🇸 美国-西雅图丨1x US
+      - 🇺🇸 美国-芝加哥丨1x US
+      - 🇺🇸 美国-达拉斯丨1x US
+      - 🇺🇸 美国-底特律丨1x US
+      - 🇺🇸 美国-夏威夷丨3x US
+      - 🇺🇸 美国-迈阿密丨1x US
+      - 🇺🇸 美国-堪萨斯丨1x US
+      - 🇺🇸 美国-密尔沃基丨1x US
+      - 🇺🇸 美国-圣克拉拉丨1x US
+      - 🇺🇸 美国-拉斯维加斯丨1x US
+      - 🇺🇸 美国-洛杉矶家宽丨3x US
+      - 🇺🇸 美国-西雅图家宽丨5x US
+      - 🇺🇸 美国-芝加哥家宽丨5x US
+      - 🇺🇸 美国-亚特兰大家宽丨5x US
+      - 🇺🇸 美国-谷歌无线网络丨3x US
   - name: 🇲🇾 马来西亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇲🇾 马来西亚家宽 01丨1x MY
+      - 🇲🇾 马来西亚家宽 02丨1x MY
+      - 🇲🇾 马来西亚家宽 03丨1x MY
+      - 🇲🇾 马来西亚家宽 04丨1x MY
   - name: 🇹🇭 泰国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇭 泰国丨2x TH
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 日本 01丨1x JP
+      - 🇯🇵 日本 02丨1x JP
+      - 🇯🇵 日本 03丨1x JP
+      - 🇯🇵 日本 04丨1x JP
+      - 🇯🇵 日本 05丨1x JP
+      - 🇯🇵 日本 06丨3x JP
+      - 🇯🇵 日本 07丨3x JP
+      - 🇯🇵 日本 08丨3x JP
+      - 🇯🇵 日本游戏丨2x JP
+      - 🇯🇵 日本家宽 01丨3x JP
+      - 🇯🇵 日本家宽 02丨3x JP
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇰🇷 韩国 01丨1x KR
+      - 🇰🇷 韩国 02丨1x KR
+      - 🇰🇷 韩国家宽 01丨3x KR
+      - 🇰🇷 韩国家宽 02丨3x KR
   - name: 🇻🇳 越南节点
     type: select
     proxies:
-      - DIRECT
+      - 🇻🇳 越南丨1x VN
+      - 🇻🇳 越南家宽丨3x VN
   - name: 🇵🇭 菲律宾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇭 菲律宾-克拉克丨1x PH
+      - 🇵🇭 菲律宾-马尼拉丨1x PH
+      - 🇵🇭 菲律宾-帕西格丨1x PH
   - name: 🇮🇩 印尼节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇩 印尼-棉兰丨1x ID
+      - 🇮🇩 印尼-雅加达丨1x ID
   - name: 🇰🇭 柬埔寨节点
     type: select
     proxies:
-      - DIRECT
+      - 🇰🇭 柬埔寨丨3x KH
   - name: 🇮🇳 印度节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇳 印度 01丨1x IN
+      - 🇮🇳 印度 02丨1x IN
   - name: 🇲🇳 蒙古节点
     type: select
     proxies:
-      - DIRECT
+      - 🇲🇳 蒙古丨1x MN
   - name: 🇮🇷 伊朗节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇷 伊朗丨5x IR
   - name: 🇧🇭 巴林节点
     type: select
     proxies:
-      - DIRECT
+      - 巴林丨10x BH
   - name: 🇮🇱 以色列节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇱 以色列-海法丨1x IL
+      - 🇮🇱 以色列-罗什艾因丨1x IL
+      - 🇮🇱 以色列-特拉维夫丨1x IL
+      - 🇮🇱 以色列-佩塔提克瓦丨1x IL
   - name: 🇹🇷 土耳其节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇷 土耳其 01丨1x TR
+      - 🇹🇷 土耳其 02丨1x TR
   - name: 🇳🇵 尼泊尔节点
     type: select
     proxies:
-      - DIRECT
+      - 尼泊尔丨1x NP
   - name: 🇧🇩 孟加拉节点
     type: select
     proxies:
-      - DIRECT
+      - 孟加拉丨2x BD
   - name: 🇦🇪 阿联酋节点
     type: select
     proxies:
-      - DIRECT
+      - 🇦🇪 阿联酋 01丨2x AE
+      - 🇦🇪 阿联酋 02丨2x AE
+      - 🇦🇪 阿联酋 03丨2x AE
   - name: 🇦🇿 阿塞拜疆节点
     type: select
     proxies:
-      - DIRECT
+      - 🇦🇿 阿塞拜疆丨2x AZ
   - name: 🇦🇲 亚美尼亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 亚美尼亚丨2x AM
   - name: 🇬🇪 格鲁吉亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇬🇪 格鲁吉亚丨1x GE
   - name: 🇵🇰 巴基斯坦节点
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇰 巴基斯坦丨5x PK
   - name: 🇸🇦 沙特阿拉伯节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇦 沙特阿拉伯丨3x SA
   - name: 🇰🇿 哈萨克斯坦节点
     type: select
     proxies:
-      - DIRECT
+      - 🇰🇿 哈萨克斯坦丨1x KZ
   - name: 🇰🇬 吉尔吉斯斯坦节点
     type: select
     proxies:
-      - DIRECT
+      - 🇰🇬 吉尔吉斯斯坦丨1x KG
   - name: 🇦🇺 澳大利亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇦🇺 澳大利亚-悉尼丨2x AU
+      - 🇦🇺 澳大利亚-珀斯丨2x AU
+      - 🇦🇺 澳大利亚-墨尔本丨2x AU
+      - 🇦🇺 澳大利亚-布里斯班丨2x AU
   - name: 🇳🇿 新西兰节点
     type: select
     proxies:
-      - DIRECT
+      - 🇳🇿 新西兰丨2x NZ
+      - 🇳🇿 新西兰家宽丨3x NZ
   - name: 🇫🇷 法国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇫🇷 法国 01丨1x FR
+      - 🇫🇷 法国 02丨1x FR
+      - 🇫🇷 法国-谷歌无线网络丨3x FR
   - name: 🇬🇧 英国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇬🇧 英国 01丨1x GB
+      - 🇬🇧 英国 02丨1x GB
+      - 🇬🇧 英国 03丨1x GB
+      - 🇬🇧 英国 04丨2x GB
+      - 🇬🇧 英国 05丨1x GB
+      - 🇬🇧 英国家宽丨3x GB
   - name: 🇮🇲 曼岛节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇲 马恩岛丨2x IM
   - name: 🇩🇪 德国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇩🇪 德国 01丨1x DE
+      - 🇩🇪 德国 02丨1x DE
+      - 🇩🇪 德国-谷歌无线网络丨3x DE
   - name: 🇩🇰 丹麦节点
     type: select
     proxies:
-      - DIRECT
+      - 🇩🇰 丹麦丨1x DK
   - name: 🇳🇴 挪威节点
     type: select
     proxies:
-      - DIRECT
+      - 🇳🇴 挪威丨1x NO
   - name: 🇸🇪 瑞典节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇪 瑞典丨1x SE
   - name: 🇫🇮 芬兰节点
     type: select
     proxies:
-      - DIRECT
+      - 🇫🇮 芬兰丨2x FI
   - name: 🇮🇸 冰岛节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇸 冰岛丨2x IS
+      - 🇮🇸 冰岛-谷歌无线网络丨3x IS
   - name: 🇨🇭 瑞士节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇭 瑞士丨2x CH
   - name: 🇨🇿 捷克节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇿 捷克丨1x CZ
   - name: 🇬🇷 希腊节点
     type: select
     proxies:
-      - DIRECT
+      - 🇬🇷 希腊丨2x GR
   - name: 🇳🇱 荷兰节点
     type: select
     proxies:
-      - DIRECT
+      - 🇳🇱 荷兰丨1x NL
   - name: 🇵🇱 波兰节点
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇱 波兰丨1x PL
   - name: 🇷🇺 俄罗斯节点
     type: select
     proxies:
-      - DIRECT
+      - 🇷🇺 俄罗斯-莫斯科丨1x RU
+      - 🇷🇺 俄罗斯-叶卡捷琳堡丨1x RU
   - name: 🇺🇦 乌克兰节点
     type: select
     proxies:
-      - DIRECT
+      - 乌克兰丨1x UA
   - name: 🇭🇺 匈牙利节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇺 匈牙利丨1x HU
   - name: 🇱🇺 卢森堡节点
     type: select
     proxies:
-      - DIRECT
+      - 🇱🇺 卢森堡丨2x LU
   - name: 🇦🇹 奥地利节点
     type: select
     proxies:
-      - DIRECT
+      - 🇦🇹 奥地利丨2x AT
   - name: 🇮🇹 意大利节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇹 意大利丨1x IT
   - name: 🇧🇪 比利时节点
     type: select
     proxies:
-      - DIRECT
+      - 🇧🇪 比利时丨1x BE
   - name: 🇮🇪 爱尔兰节点
     type: select
     proxies:
-      - DIRECT
+      - 🇮🇪 爱尔兰丨2x IE
   - name: 🇱🇹 立陶宛节点
     type: select
     proxies:
-      - DIRECT
+      - 🇱🇹 立陶宛丨1x LT
   - name: 🇪🇸 西班牙节点
     type: select
     proxies:
-      - DIRECT
+      - 🇪🇸 西班牙丨1x ES
   - name: 🇵🇹 葡萄牙节点
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇹 葡萄牙丨1x PT
   - name: 🇦🇩 安道尔节点
     type: select
     proxies:
-      - DIRECT
+      - 安道尔丨3x AD
   - name: 🇧🇬 保加利亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇧🇬 保加利亚丨1x BG
   - name: 🇭🇷 克罗地亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇭🇷 克罗地亚丨2x HR
   - name: 🇲🇰 马其顿节点
     type: select
     proxies:
-      - DIRECT
+      - 🇲🇰 北马其顿丨2x MK
   - name: 🇷🇸 塞尔维亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇷🇸 塞尔维亚丨2x RS
   - name: 🇨🇾 塞浦路斯节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇾 塞浦路斯丨1x CY
   - name: 🇱🇻 拉脱维亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇱🇻 拉脱维亚丨1x LV
   - name: 🇲🇩 摩尔多瓦节点
     type: select
     proxies:
-      - DIRECT
+      - 🇲🇩 摩尔多瓦丨2x MD
   - name: 🇸🇰 斯洛伐克节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇰 斯洛伐克丨1x SK
   - name: 🇪🇪 爱沙尼亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇪🇪 爱沙尼亚丨1x EE
   - name: 🇧🇾 白俄罗斯节点
     type: select
     proxies:
-      - DIRECT
+      - 🇷🇺 白俄罗斯丨3x BY
   - name: 🇷🇴 罗马尼亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇷🇴 罗马尼亚丨1x RO
   - name: 🇸🇮 斯洛文尼亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇮 斯洛文尼亚丨2x SI
   - name: 🇦🇱 阿尔巴尼亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇦🇱 阿尔巴尼亚丨1x AL
   - name: 🇧🇦 波黑节点
     type: select
     proxies:
-      - DIRECT
+      - 🇧🇦 波黑共和国丨2x BA
   - name: 🇷🇪 法属留尼汪节点
     type: select
     proxies:
-      - DIRECT
+      - 法属留尼汪丨2x RE
   - name: 🇨🇦 加拿大节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇦 加拿大-温哥华丨2x CA
+      - 🇨🇦 加拿大-多伦多丨1x CA
+      - 🇨🇦 加拿大-蒙特利尔丨1x CA
+      - 🇨🇦 加拿大家宽丨3x CA
   - name: 🇲🇽 墨西哥节点
     type: select
     proxies:
-      - DIRECT
+      - 🇲🇽 墨西哥丨3x MX
   - name: 🇵🇦 巴拿马节点
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇦 巴拿马丨3x PA
   - name: 🇵🇷 波多黎各节点
     type: select
     proxies:
-      - DIRECT
+      - 波多黎各丨2x PR
   - name: 🇨🇷 哥斯达黎加节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇷 哥斯达黎加丨1x CR
   - name: 🇧🇷 巴西节点
     type: select
     proxies:
-      - DIRECT
+      - 🇧🇷 巴西 01丨1x BR
+      - 🇧🇷 巴西 02丨1x BR
+      - 🇧🇷 巴西 03丨1x BR
+      - 🇧🇷 巴西 04丨1x BR
   - name: 🇨🇱 智利节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇱 智利丨2x CL
   - name: 🇵🇪 秘鲁节点
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇪 秘鲁丨5x PE
   - name: 🇦🇷 阿根廷节点
     type: select
     proxies:
-      - DIRECT
+      - 🇦🇷 阿根廷 01丨2x AR
+      - 🇦🇷 阿根廷 02丨5x AR
   - name: 🇺🇾 乌拉圭节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇾 乌拉圭丨2x UY
   - name: 🇵🇾 巴拉圭节点
     type: select
     proxies:
@@ -828,39 +1134,40 @@ proxies:
   - name: 🇨🇴 哥伦比亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇴 哥伦比亚丨1x CO
   - name: 🇪🇨 厄瓜多尔节点
     type: select
     proxies:
-      - DIRECT
+      - 厄瓜多尔丨5x EC
   - name: 🇻🇪 委内瑞拉节点
     type: select
     proxies:
-      - DIRECT
+      - 委内瑞拉丨3x VE
   - name: 🇪🇬 埃及节点
     type: select
     proxies:
-      - DIRECT
+      - 🇪🇬 埃及丨3x EG
   - name: 🇿🇦 南非节点
     type: select
     proxies:
-      - DIRECT
+      - 🇿🇦 南非-开普敦丨1x ZA
+      - 🇿🇦 南非-约翰内斯堡丨1x ZA
   - name: 🇲🇦 摩洛哥节点
     type: select
     proxies:
-      - DIRECT
+      - 摩洛哥丨2x MA
   - name: 🇹🇳 突尼斯节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇳 突尼斯丨2x TN
   - name: 🇰🇪 肯尼亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇰🇪 肯尼亚丨1x KE
   - name: 🇳🇬 尼日利亚节点
     type: select
     proxies:
-      - DIRECT
+      - 🇯🇵 尼日利亚丨2x NG
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 国内网络
  - DOMAIN-SUFFIX,ip6-localhost,🎯 国内网络
