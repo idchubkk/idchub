@@ -1,5 +1,8 @@
 # OpenClash Configuration
-
+port: 7890 # port of HTTP
+socks-port: 7891 # port of SOCKS5
+redir-port: 7892 # redir port for Linux and macOS
+allow-lan: false
 # 代理配置
 proxy-groups:
   - name: "Proxy"
@@ -55,9 +58,6 @@ proxies:
 # 设备规则
 rules:
   - RULE-SET,Proxy
-
-# 指定设备的代理规则
-rules:
   - "192.168.11.214,VMess-TCP-19417"
   - "192.168.11.217,VMess-TCP-52116"
   - "192.168.11.0/24,VMess-TCP-1541"
