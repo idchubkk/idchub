@@ -1,9 +1,5 @@
 # OpenClash Configuration
 
-# 规则集
-rules:
-  - RULE-SET,Proxy
-
 # 代理配置
 proxy-groups:
   - name: "Proxy"
