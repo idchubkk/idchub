@@ -1,58 +1,64 @@
-mixed-port: 7890
+# OpenClash Configuration
+
+# 规则集
+rules:
+  - RULE-SET,Proxy
+
+# 代理配置
+proxy-groups:
+  - name: "Proxy"
+    type: select
+    proxies:
+      - "VMess-TCP-19417"
+      - "VMess-TCP-52116"
+      - "VMess-TCP-1541"
 
 proxies:
-  - name: "ss_device1"
-    type: ss
-    server: host-001.crazyspeed.xyz
-    port: 30501
-    cipher: chacha20-ietf-poly1305
-    password: ff60a529-1bfc-45bf-b7b7-02043fa305e6
-    udp: true
-  - name: "ss_device2"
-    type: ss
-    server: host-018.crazyspeed.xyz
-    port: 30608
-    cipher: chacha20-ietf-poly1305
-    password: ff60a529-1bfc-45bf-b7b7-02043fa305e6
-    udp: true
+  # 第一个代理
+  - name: "VMess-TCP-19417"
+    type: vmess
+    server: 104.247.120.164
+    port: 19417
+    uuid: 27bce036-d525-4279-aeee-7779b481c91a
+    alterId: 64
+    cipher: auto
+    network: tcp
+    tls: false
+    ws-path: "/"
+    ws-headers:
+      Host: "example.com"
 
-proxy-groups:
-  - name: "device1"
-    type: select
-    proxies:
-      - "ss_device1"
-    url: "http://device1_rule"
-  - name: "device2"
-    type: select
-    proxies:
-      - "ss_device2"
-    url: "http://device2_rule"
-  - name: "other_devices"
-    type: select
-    proxies:
-      - DIRECT
+  # 第二个代理
+  - name: "VMess-TCP-52116"
+    type: vmess
+    server: 104.247.120.173
+    port: 52116
+    uuid: 56b090f9-45b1-4192-a739-e8e7dd41f57a
+    alterId: 64
+    cipher: auto
+    network: tcp
+    tls: false
+    ws-path: "/"
+    ws-headers:
+      Host: "example.com"
 
-rule-providers:
-  - name: "device1_rule"
-    type: ip-cidr
-    behavior: bypass
-    criteria:
-      - "192.168.11.217/32"
-    provider: "device1"
-  - name: "device2_rule"
-    type: ip-cidr
-    behavior: bypass
-    criteria:
-      - "192.168.11.214/32"
-    provider: "device2"
+  # 第三个代理
+  - name: "VMess-TCP-1541"
+    type: vmess
+    server: 104.247.120.174
+    port: 1541
+    uuid: 9ac7661f-54a9-49f2-93da-b8dea29808c4
+    alterId: 64
+    cipher: auto
+    network: tcp
+    tls: false
+    ws-path: "/"
+    ws-headers:
+      Host: "example.com"
 
+# 设备规则
 rules:
-  - RULE-SET: "device1"
-    rule:
-      - "ss_device1"
-  - RULE-SET: "device2"
-    rule:
-      - "ss_device2"
-  - RULE-SET: "other_devices"
-    rule:
-      - "DIRECT"
+  - RULE-SET,Proxy
+  - "192.168.11.214,VMess-TCP-19417"
+  - "192.168.11.217,VMess-TCP-52116"
+  - "192.168.11.0/24,VMess-TCP-1541"
