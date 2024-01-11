@@ -1,0 +1,47 @@
+mixed-port: 7892
+
+proxies:
+  - name: "ss_device1"
+    type: ss
+    server: host-001.crazyspeed.xyz
+    port: 30501
+    cipher: chacha20-ietf-poly1305
+    password: ff60a529-1bfc-45bf-b7b7-02043fa305e6
+    udp: true
+  - name: "ss_device2"
+    type: ss
+    server: host-018.crazyspeed.xyz
+    port: 30608
+    cipher: chacha20-ietf-poly1305
+    password: ff60a529-1bfc-45bf-b7b7-02043fa305e6
+    udp: true
+
+proxy-groups:
+  - name: "device1"
+    type: select
+    proxies:
+      - "ss_device1"
+    url: "http://device1_rule"
+  - name: "device2"
+    type: select
+    proxies:
+      - "ss_device2"
+    url: "http://device2_rule"
+
+rule-providers:
+  - name: "device1_rule"
+    type: ip-cidr
+    behavior: bypass
+    criteria:
+      - "192.168.11.217/32"
+    provider: "device1"
+  - name: "device2_rule"
+    type: ip-cidr
+    behavior: bypass
+    criteria:
+      - "192.168.11.214/32"
+    provider: "device2"
+
+rules:
+  - RULE-SET,device1,ss_device1
+  - RULE-SET,device2,ss_device2
