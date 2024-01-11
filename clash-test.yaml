@@ -34,25 +34,25 @@ proxy-groups:
 
 rule-providers:
   - name: "device1_rule"
-    type: "ip-cidr"
-    behavior: "bypass"
+    type: ip-cidr
+    behavior: bypass
     criteria:
       - "192.168.11.217/32"
     provider: "device1"
   - name: "device2_rule"
-    type: "ip-cidr"
-    behavior: "bypass"
+    type: ip-cidr
+    behavior: bypass
     criteria:
       - "192.168.11.214/32"
     provider: "device2"
 
 rules:
-  - RULE-SET: "device1"
+  - RULE-SET: device1
     rule:
-      - "ss_device1"
-  - RULE-SET: "device2"
+      - ss_device1
+  - RULE-SET: device2
     rule:
-      - "ss_device2"
-  - RULE-SET: "other_devices"
+      - ss_device2
+  - RULE-SET: other_devices
     rule:
-      - "DIRECT"
+      - DIRECT
