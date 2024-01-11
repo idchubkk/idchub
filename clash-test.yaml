@@ -47,9 +47,12 @@ rule-providers:
     provider: "device2"
 
 rules:
-  - RULE-SET: device1
-    rule: ss_device1
-  - RULE-SET: device2
-    rule: ss_device2
-  - RULE-SET: other_devices
-    rule: DIRECT
+  - RULE-SET: "device1"
+    rule:
+      - "ss_device1"
+  - RULE-SET: "device2"
+    rule:
+      - "ss_device2"
+  - RULE-SET: "other_devices"
+    rule:
+      - DIRECT
