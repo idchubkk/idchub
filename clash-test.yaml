@@ -3,61 +3,64 @@ port: 7890 # port of HTTP
 socks-port: 7891 # port of SOCKS5
 redir-port: 7892 # redir port for Linux and macOS
 allow-lan: false
-# 代理配置
-proxy-groups:
-  - name: "Proxy"
-    type: select
-    proxies:
-      - "VMess-TCP-19417"
-      - "VMess-TCP-52116"
-      - "VMess-TCP-1541"
+Proxy:
+- name: "VMess-TCP-19417"
+  type: vmess
+  server: 154.22.110.164
+  port: 19417
+  uuid: 27bce036-d525-4279-aeee-7779b481c91a
+  alterId: 
+  cipher: none
+  udp: true
+  tls: false
 
-proxies:
-  # 第一个代理
-  - name: "VMess-TCP-19417"
-    type: vmess
-    server: 104.247.120.164
-    port: 19417
-    uuid: 27bce036-d525-4279-aeee-7779b481c91a
-    alterId: 64
-    cipher: auto
-    network: tcp
-    tls: false
-    ws-path: "/"
-    ws-headers:
-      Host: "example.com"
+- name: "VMess-TCP-52116"
+  type: vmess
+  server: 154.22.110.173
+  port: 52116
+  uuid: 56b090f9-45b1-4192-a739-e8e7dd41f57a
+  alterId: 
+  cipher: none
+  udp: false
+  tls: false
 
-  # 第二个代理
-  - name: "VMess-TCP-52116"
-    type: vmess
-    server: 104.247.120.173
-    port: 52116
-    uuid: 56b090f9-45b1-4192-a739-e8e7dd41f57a
-    alterId: 64
-    cipher: auto
-    network: tcp
-    tls: false
-    ws-path: "/"
-    ws-headers:
-      Host: "example.com"
+- name: "VMess-TCP-1541"
+  type: vmess
+  server: 154.22.110.174
+  port: 1541
+  uuid: 9ac7661f-54a9-49f2-93da-b8dea29808c4
+  alterId: 
+  cipher: none
+  udp: false
+  tls: false
 
-  # 第三个代理
-  - name: "VMess-TCP-1541"
-    type: vmess
-    server: 104.247.120.174
-    port: 1541
-    uuid: 9ac7661f-54a9-49f2-93da-b8dea29808c4
-    alterId: 64
-    cipher: auto
-    network: tcp
-    tls: false
-    ws-path: "/"
-    ws-headers:
-      Host: "example.com"
-
-# 设备规则
-rules:
-  - RULE-SET,Proxy
-  - "192.168.11.214,VMess-TCP-19417"
-  - "192.168.11.217,VMess-TCP-52116"
-  - "192.168.11.0/24,VMess-TCP-1541"
+Proxy Group:
+- name: pc-1
+  type: select
+  proxies:
+    - VMess-TCP-19417
+  
+- name: pc-2
+  type: select
+  proxies:
+    - VMess-TCP-52116
+  
+- name: pc-3
+  type: select
+  proxies:
+    - VMess-TCP-1541
+  
+- name: direct
+  type: select
+  proxies:
+    - DIRECT
+  
+- name: reject
+  type: select
+  proxies:
+    - REJECT
+  
+Rule:
+- SRC-IP-CIDR,192.168.11.214,pc-1
+- SRC-IP-CIDR,192.168.11.217,pc-2
+- SRC-IP-CIDR,192.168.11.0/24,pc-1
