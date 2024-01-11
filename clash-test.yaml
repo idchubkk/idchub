@@ -55,6 +55,9 @@ proxies:
 # 设备规则
 rules:
   - RULE-SET,Proxy
+
+# 指定设备的代理规则
+rules:
   - "192.168.11.214,VMess-TCP-19417"
   - "192.168.11.217,VMess-TCP-52116"
   - "192.168.11.0/24,VMess-TCP-1541"
