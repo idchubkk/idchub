@@ -27,6 +27,10 @@ proxy-groups:
     proxies:
       - "ss_device2"
     url: "http://device2_rule"
+  - name: "other_devices"
+    type: select
+    proxies:
+      - DIRECT
 
 rule-providers:
   - name: "device1_rule"
@@ -45,3 +49,4 @@ rule-providers:
 rules:
   - RULE-SET,device1,ss_device1
   - RULE-SET,device2,ss_device2
+  - RULE-SET,other_devices,DIRECT
