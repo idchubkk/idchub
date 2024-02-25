@@ -205,11 +205,8 @@ start() {
     set +a
 
     if [[ ! -f "$MTG_SECRET" ]]; then
-        $DOCKER_CMD run \
-                --rm \
-                "$MTG_IMAGENAME" \
-            generate-secret tls -c "$(openssl rand -hex 16).com" \
-        > "$MTG_SECRET"
+       MTG_SECRET_VALUE=$(openssl rand -base64 32)
+       echo "$MTG_SECRET_VALUE" > "$MTG_SECRET"
     fi
 
     $DOCKER_CMD ps --filter "Name=$MTG_CONTAINER" -aq | xargs -r $DOCKER_CMD rm -fv > /dev/null
